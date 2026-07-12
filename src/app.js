@@ -17,7 +17,7 @@ import cookieParser from 'cookie-parser'
 
 app.get("/ping", (req, res) => {
     res.send("pong")
-})
+})       
 
 
 import userRouter  from './routes/user.routes.js'
